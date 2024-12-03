@@ -1,6 +1,6 @@
 # Blink LED
 ## Description
-A program based on the Arduino API to blink the built-in LED on the board.
+Blinks an LED connected to the defined pin.
 
 ## Supported boards
 ### AVR Boards
