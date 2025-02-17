@@ -3,8 +3,8 @@
 Blinks an LED connected to the defined pin.
 
 ## Supported boards
-### Arduino Boards
-All boards are supported.
+### AVR Boards
+1. Arduino UNO
 
-### ESP32 Boards
+### Espressif 32 Boards
 1. NodeMCU-32S
