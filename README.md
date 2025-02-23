@@ -1,5 +1,4 @@
-# Blink LED
-
+# BlinkLED
 ## Description
 
 Blinks an LED connected to the defined pin.
