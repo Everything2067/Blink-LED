@@ -5,14 +5,14 @@
 */
 
 // Uncomment this if you want to define a specific pin.
-// #define LED 13
+// #define LED_PIN 13
 
-#ifndef LED
-  #ifdef ARDUINO
-    #define LED 13
+#ifndef LED_PIN
+  #ifdef ARDUINO_BOARD
+    #define LED_PIN 13
   #endif
   #ifdef NODEMCU_32S
-    #define LED 2
+    #define LED_PIN 2
   #endif
 #endif
 
@@ -24,13 +24,13 @@
 #define OFF_TIME 1000
 
 void setup() {
-  pinMode(LED, OUTPUT);
+  pinMode(LED_PIN, OUTPUT);
 }
 
 void loop() {
-  digitalWrite(LED, HIGH);
+  digitalWrite(LED_PIN, HIGH);
   delay(ON_TIME);
 
-  digitalWrite(LED, LOW);
+  digitalWrite(LED_PIN, LOW);
   delay(OFF_TIME);
 }
