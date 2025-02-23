@@ -7,7 +7,7 @@ Blinks an LED connected to the defined pin.
 
 ### Arduino Boards
 
-- #### Uno Form Factor
+#### Uno Form Factor
   
   1. Arduino Uno R3
   2. Arduino Uno R4 Minima
@@ -16,13 +16,13 @@ Blinks an LED connected to the defined pin.
   5. Arduino Zero
   6. Arduino Uno R2 WiFi
 
-- #### Mega Form Factor
+#### Mega Form Factor
   
   1. Arduino Mega 2560
   2. Arduino Due
   3. Arduino Giga R1 WiFi M7
 
-- #### Nano Form Factor
+#### Nano Form Factor
   
   1. Arduino Nano (Atmega328 New Bootloader)
   2. Arduino Nano Every
@@ -31,10 +31,10 @@ Blinks an LED connected to the defined pin.
   5. Arduino Nano 33 BLE R2
   6. Arduino Nano ESP32
 
-- #### Other
+#### Other
   
   1. Arduino Micro
 
-### Espressif 32 Boards
+### ESP32 Boards
 
 1. NodeMCU-32S
